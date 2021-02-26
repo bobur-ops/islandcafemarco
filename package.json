@@ -1,0 +1,26 @@
+{
+  "name": "island",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --watch styles -o styles"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bobur-ops/islandcafemarco.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bobur-ops/islandcafemarco/issues"
+  },
+  "homepage": "https://github.com/bobur-ops/islandcafemarco#readme",
+  "dependencies": {
+    "build-css": "^0.2.0"
+  },
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
